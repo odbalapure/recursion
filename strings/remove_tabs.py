@@ -12,4 +12,4 @@ def remove_tabs(string: str) -> str:
     else:
         return string[0] + remove_tabs(string[1:])
 
-print(remove_tabs("Hello\tWorld"))
+print(remove_tabs("Hello\tWorld")) # HelloWorld
